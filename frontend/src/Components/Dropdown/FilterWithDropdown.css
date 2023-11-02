@@ -1,0 +1,48 @@
+/* Özelleştirilmiş dropdown stilleri */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-toggle {
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown-toggle:hover {
+  background-color: #e0e0e0;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  list-style: none;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: 1px solid #888; list-style: none;
+}
+
+/* Dropdown açıkken görünmesi */
+.dropdown.open .dropdown-menu {
+  display: block;
+ 
+  
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+ 
+}
+
+.dropdown-menu li:hover {
+  background-color: #e0e0e0;
+}
